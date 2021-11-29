@@ -47,7 +47,17 @@ c = a + b
 
 ```    
 
-Program ini merupakan latihan cara membuat list, menampilkan elemen yang ada didalam list, mengubah, dan menggabungkannya.                  
+Program ini merupakan latihan cara membuat list, menampilkan elemen yang ada didalam list, mengubah, dan menggabungkannya. Untuk membuat list dan membuat elemen didalamnya, maka seperti ini :       
+
+> a = [10, 20, 30, 40, 50]      
+> # Output : [10, 20, 30, 40, 50]       
+
+Angka 10 berada di **index ke-0** dan **elemen ke-1**, Angka 20 berada di **index ke-1** dan **elemen ke-2** dan seterusnya berurutan. Untuk mengakses nilai tertentu didalam sebuah list maka kita harus gunakan nomor indexnya. contohnya seperti ini :         
+
+> a[2]        
+> # Output : 30     
+
+Kita baru saja coba mengakses index ke-2 dari elemen list dan yang muncul adalah angka 30 yang merupakan elemen ke-3 dari list yang kita punya.     
 
 ## Tugas     
 
