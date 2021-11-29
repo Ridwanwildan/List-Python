@@ -5,7 +5,7 @@ a = [10, 20, 30, 40, 50]
 print(a[2])
 
 # Ambil nilai elemen ke 2 sampai ke 4
-a[1:4]
+a[1:3]
 
 # Ambil elemen terakhir
 a[4]
