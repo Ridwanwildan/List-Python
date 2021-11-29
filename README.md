@@ -22,7 +22,7 @@ a = [10, 20, 30, 40, 50]
 print(a[2])
 
 # Ambil nilai elemen ke 2 sampai ke 4
-a[1:4]
+a[1:3]
 
 # Ambil elemen terakhir
 a[4]
@@ -50,16 +50,33 @@ c = a + b
 Program ini merupakan latihan cara membuat list, menampilkan elemen yang ada didalam list, mengubah, dan menggabungkannya. Untuk membuat list dan membuat elemen didalamnya, maka seperti ini :       
 
 > a = [10, 20, 30, 40, 50]      
-> ------------------------         
-> output = [10, 20, 30, 40, 50]       
 
 Angka 10 berada di **index ke-0** dan **elemen ke-1**, Angka 20 berada di **index ke-1** dan **elemen ke-2** dan seterusnya berurutan. Untuk mengakses nilai tertentu didalam sebuah list maka kita harus gunakan nomor indexnya. contohnya seperti ini :         
 
-> a[2]      
-> --------------                
-> output = [30]       
+> a[2]       
+> mengakses satu index       
+> a[1:4]        
+> mengakses index ke 1 sampai index ke 4         
 
-Kita baru saja coba mengakses index ke-2 dari elemen list dan yang muncul adalah angka 30 yang merupakan elemen ke-3 dari list yang kita punya.     
+Jika ingin mengubah nilai pada index, caranya seperti ini :       
+
+> a[3] = 4444      
+> mengubah satu index     
+> a[3:] = [3000, 4000]      
+> mengubah index ke 3 sampai index terakhir      
+
+Kemudian untuk menambahkan nilai baru didalam listnya kita menggunakan append(), caranya seperti ini :       
+
+> b.append("Hizbullah")         
+> menambahkan satu index      
+> b.extend([66, 77, 88])      
+> menambahkan banyak index       
+
+Dan yang terakhir, jika kita ingin menggabungkan dua list menjadi satu, maka contoh caranya adalah seperti ini :     
+
+> c = a + b       
+> menggabungkan a[] dan b[] menjadi c[]         
+
 
 ## Tugas     
 
