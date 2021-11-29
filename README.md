@@ -8,8 +8,8 @@
 Dalam latihan membuat conditional dan loop [python](https://www.python.org/) ini, saya menggunakan [visual studio code](https://code.visualstudio.com/) sebagai teks editornya.     
     
 
-* [Latihan](https://github.com/Ridwanwildan/Conditional-Loop-Python#membuat-program-menentukan-nilai-akhir)         
-* [Tugas](https://github.com/Ridwanwildan/Conditional-Loop-Python#membuat-program-menampilkan-status-gaji-karyawan)      
+* [Latihan](https://github.com/Ridwanwildan/List-Python#latihan)         
+* [Tugas](https://github.com/Ridwanwildan/List-Python#tugas)      
   
 
 ## Latihan      
@@ -78,7 +78,7 @@ for i in range(len(nama)):
  print(" |", tugas[i], end="")
  print("    |", uts[i], end="")
  print("  |", uas[i], " | ", end="")
- print(f'{(tugas[i] + uts[i] + uas[i]) / 3:.2f}', " |")
+ print(f'{(tugas[i]*30/100) + (uts[i]*35/100) + (uas[i]*35/100) :.2f}', " |")
 print("==========================================================================")
 
 ```           
