@@ -80,6 +80,7 @@ Dan yang terakhir, jika kita ingin menggabungkan dua list menjadi satu, maka con
 
 ## Tugas     
 
+
 ```bash
 nama = []
 nim = []
@@ -113,5 +114,47 @@ print("=========================================================================
 ```           
 ![Gambar 1](screenshot/img1.PNG)      
 
-Dalam program ini, pertama kita akan mendekalarasikan list yang kosong. yaitu **nama, nim, tugas, uts, uas** dan nanti akan kita input satu persatu       
+Dalam program ini, pertama kita akan mendekalarasikan list yang kosong. yaitu **nama, nim, tugas, uts, uas** dan nanti akan kita input satu persatu. Kita bisa bebas berapa kali menginputkan data-datanya. Supaya bisa demikian, maka kita harus menggunakan while loop dan akan berhenti jika kita sudah tidak ingin menambah datanya lagi.        
 
+```bash
+ulang = "y"
+
+while ulang == "y":
+ ```      
+
+ Tadi kita sudah mendeklarasikan beberapa list yang kosong, dan sekarang kita akan mengisinya. Untuk data yang didalamnya berisi angka gunakan integer input. append() artinya kita memasukkan satu nilai dan jika sebelumnya sudah ada nilai, maka nilai yang baru kita masukkan ini akan disimpan di urutan paling belakang.        
+
+```bash
+nama.append(input("Nama : "))
+ nim.append(input("NIM : "))
+ tugas.append(int(input("Nilai tugas : ")))
+ uts.append(int(input("Nilai UTS : ")))
+ uas.append(int(input("Nilai UAS : ")))
+ ulang = input("Tambah data (y/t) ? ")
+ ```       
+
+ Setelah while loop selesai, maka kita harus membuat tabel hasilnya. Dan ini merupakan cara membuat header tabelnya.      
+
+```bash
+ print("==========================================================================")
+print("| No  |          Nama           |    NIM    | Tugas | UTS | UAS |  Akhir |")
+print("==========================================================================")
+```         
+
+Jika tabelnya sudah dibuat, maka berikutnya kita akan buat isi tabelnya. Dalam membuat isi tabel ini kita menggunakan for loop, karena jumlah banyaknya baris pada tabel harus disesuaikan dengan jumlah data yang tadi sdah kita input. Kita akan mengulang **i** sebanyak n kali dan nilai n ditentukan oleh **len(nama)** yaitu jumlah banyaknya index pada list **nama**.        
+
+```bash
+for i in range(len(nama)):
+```       
+
+Yang paling kiri ditampilkan adalah nomor. Jika **i** di looping maka **i** akan mulai dari angka 0 dan supaya **i** mulai dari angka 1 kita harus menambahkan i dengan 1 **i+1**. Kita tambah lagi **end=""** Supaya output berikutnya tidak berada di barisan baru.
+
+```bash
+print("|", i+1, "  |", end="")
+```      
+
+Selanjutnya menampilkan nama
+
+```bash
+
+```         
