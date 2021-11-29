@@ -24,6 +24,6 @@ for i in range(len(nama)):
  print(" |", tugas[i], end="")
  print("    |", uts[i], end="")
  print("  |", uas[i], " | ", end="")
- print(f'{(tugas[i] + uts[i] + uas[i]) / 3:.2f}', " |")
+ print(f'{(tugas[i]*30/100) + (uts[i]*35/100) + (uas[i]*35/100) :.2f}', " |")
 print("==========================================================================")
 
