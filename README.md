@@ -153,8 +153,31 @@ Yang paling kiri ditampilkan adalah nomor. Jika **i** di looping maka **i** akan
 print("|", i+1, "  |", end="")
 ```      
 
-Selanjutnya menampilkan nama
+Selanjutnya menampilkan nama. Dalam menampilkan nama, saya menggunakan **print.('{0:<25}'.format())** supaya tampilannya rapi dan bisa menyesuaikan dengan panjang huruf namanya. Supaya nama ditampilkan berurutan dari index ke-0 sampai seterusnya kita gunakan **nama[i]**.         
 
 ```bash
+print('{0:<25}'.format(nama[i]), end="")
+```          
 
-```         
+Setelah itu menampilkan NIM, nilai tugas, nilai UTS, dan nilai UAS. Untuk menampilkannya, kita pakai **list[i]** seperti tadi.          
+
+```bash
+print("|", nim[i], end="")
+print(" |", tugas[i], end="")
+print("    |", uts[i], end="")
+print("  |", uas[i], " | ", end="")
+ ```        
+
+ Yang terakhir adalah menghitung dan menampilkan nilai akhir dari masing-masing datanya. Nilai akhir ini didapat dari penjumlahan **30% nilai tugas**, **35% nilai UTS**, dan **35% nilai UAS**. Supaya angka dibelakang komanya tidak terlalu banyak, kita batasi dengan menambahkan **:.2f** nantinya angka dibelakang koma hanya ada dua angka saja.          
+
+ ```bash
+print(f'{(tugas[i]*30/100) + (uts[i]*35/100) + (uas[i]*35/100) :.2f}', " |")
+ ```        
+
+ Jangan lupa tambahkan footer tabel dipaling bawahnya.        
+
+ ```bash
+ print("==========================================================================")
+  ```          
+
+  Terimakasih         
