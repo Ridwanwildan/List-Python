@@ -80,7 +80,7 @@ Dan yang terakhir, jika kita ingin menggabungkan dua list menjadi satu, maka con
 
 ## Tugas     
 
-![Gambar 1](screenshot/flowchart.PNG)      
+![Gambar 1](screenshot/flowchart.png)      
 
 ```bash
 nama = []
