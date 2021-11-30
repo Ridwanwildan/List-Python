@@ -80,6 +80,7 @@ Dan yang terakhir, jika kita ingin menggabungkan dua list menjadi satu, maka con
 
 ## Tugas     
 
+![Gambar 1](screenshot/flowchart.PNG)      
 
 ```bash
 nama = []
@@ -112,7 +113,7 @@ for i in range(len(nama)):
 print("==========================================================================")
 
 ```           
-![Gambar 1](screenshot/img1.PNG)      
+![Gambar 2](screenshot/img1.PNG)      
 
 Dalam program ini, pertama kita akan mendekalarasikan list yang kosong. yaitu **nama, nim, tugas, uts, uas** dan nanti akan kita input satu persatu. Kita bisa bebas berapa kali menginputkan data-datanya. Supaya bisa demikian, maka kita harus menggunakan while loop dan akan berhenti jika kita sudah tidak ingin menambah datanya lagi.        
 
